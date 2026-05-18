@@ -102,25 +102,6 @@ This project demonstrates experience with:
 
 ---
 
-# Repository Structure
-
-```text
-VBA-challenge/
-│
-├── VBA_Scripts/
-│   VBA modules and automation scripts
-│
-├── Resources/
-│   Raw stock market datasets
-│
-├── Screenshots/
-│   Output screenshots and visualizations
-│
-└── README.md
-```
-
----
-
 # Future Improvements
 
 Potential future enhancements include:
