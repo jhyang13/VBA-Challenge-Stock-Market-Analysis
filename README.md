@@ -1,139 +1,104 @@
+# Stock Market Data Analysis with VBA
+
+## Overview
+
+This project uses VBA scripting in Microsoft Excel to automate the analysis of historical stock market data across multiple years.
+
+The goal of the project is to process large datasets efficiently, generate summary statistics for each stock ticker, and identify key market trends such as the highest percentage increases, decreases, and trading volumes.
+
+By automating repetitive spreadsheet tasks with VBA, this project demonstrates how Excel can be transformed into a lightweight financial analysis and reporting tool.
+
+# Project Objectives
+
+The main objectives of this project are to:
+
+- Automate stock market data analysis using VBA
+- Process large datasets across multiple worksheets
+- Calculate yearly and percentage stock performance
+- Summarize total trading volume for each stock
+- Identify top-performing and worst-performing stocks
+- Apply conditional formatting for easier trend visualization
+- Improve efficiency compared to manual spreadsheet analysis
+
+# Dataset
+
+The dataset contains historical stock market information, including:
+
+- Stock ticker symbols
+- Opening prices
+- Closing prices
+- Trading volumes
+- Multi-year worksheet data
+
+The data is analyzed on a yearly basis using automated VBA scripts.
+
+# Features & Analysis
+
+## Automated VBA Processing
+
+Developed VBA scripts that:
+
+- Loop through every worksheet automatically
+- Read and summarize stock data
+- Generate calculated metrics for each ticker
+- Handle large datasets efficiently
+
+## Financial Metrics Calculated
+
+For each stock ticker, the script calculates:
+
+- Yearly price change
+- Percentage price change
+- Total trading volume
+
+Additional analysis identifies:
+
+- Greatest percentage increase
+- Greatest percentage decrease
+- Highest total trading volume
+
+## Data Visualization
+
+Implemented conditional formatting to improve readability:
+
+- Green highlights for positive performance
+- Red highlights for negative performance
+
+This allows quick visual identification of market trends and stock performance.
+
+# Technologies Used
+
+- Microsoft Excel
+- VBA (Visual Basic for Applications)
+- Excel Conditional Formatting
+- Financial Data Analysis Techniques
+
+# Key Skills Demonstrated
+
+This project demonstrates experience with:
+
+- VBA scripting and automation
+- Financial data analysis
+- Looping and worksheet automation
+- Data aggregation and reporting
+- Spreadsheet optimization
+- Analytical problem solving
+
+# Future Improvements
+
+Potential future enhancements include:
+
+- Interactive dashboards
+- Dynamic filtering and reporting
+- Additional financial indicators
+- Automated chart generation
+- Exporting reports to external files
+
 ---
-title: "Module 2 Challenge"
----
-<div id="bootcamp"><img style="display: none;" src="https://static.bc-edx.com/data/dl-1-2/m2/lms/img/banner.jpg" alt="lesson banner" />
 
-### Background
+# Disclaimer
 
-You are well on your way to becoming a programmer and Excel expert! In this homework assignment, you will use VBA scripting to analyze generated stock market data.
+This project was completed for educational and portfolio purposes.
 
-### Before You Begin
+Dataset content was generated for learning and analytical practice.
 
-1. Create a new repository for this project called `VBA-challenge`. **Do not add this assignment to an existing repository**.
-
-2. Inside the new repository that you just created, add any VBA files that you use for this assignment. These will be the main scripts to run for each analysis.
-
-### Files
-
-Download the following files to help you get started:
-
-[Module 2 Challenge files](https://static.bc-edx.com/data/dl-1-2/m2/lms/starter/Starter_Code.zip)
-
-### Instructions
-
-Create a script that loops through all the stocks for one year and outputs the following information:
-
-* The ticker symbol
-
-* Yearly change from the opening price at the beginning of a given year to the closing price at the end of that year.
-
-* The percentage change from the opening price at the beginning of a given year to the closing price at the end of that year.
-
-* The total stock volume of the stock. The result should match the following image:
-
-  ![Moderate solution](https://static.bc-edx.com/data/dl-1-2/m2/lms/img/moderate_solution.jpg)
-
-* Add functionality to your script to return the stock with the "Greatest % increase", "Greatest % decrease", and "Greatest total volume". The solution should match the following image:
-
-  ![Hard solution](https://static.bc-edx.com/data/dl-1-2/m2/lms/img/hard_solution.jpg)
-
-* Make the appropriate adjustments to your VBA script to enable it to run on every worksheet (that is, every year) at once.
-
-> **Note** Make sure to use conditional formatting that will highlight positive change in green and negative change in red.
-
-### Other Considerations
-
-* Use the sheet `alphabetical_testing.xlsx` while developing your code. This dataset is smaller and will allow you to test faster. Your code should run on this file in under 3 to 5 minutes.
-
-* Make sure that the script acts the same on every sheet. The joy of VBA is that it takes the tediousness out of repetitive tasks with the click of a button.
-
-### Requirements
-
-#### Retrieval of Data (20 points)
-
-* The script loops through one year of stock data and reads/ stores all of the following values from each row:
-
-  * ticker symbol (5 points)
-
-  * volume of stock (5 points)
-
-  * open price (5 points)
-
-  * close price (5 points)
-
-#### Column Creation (10 points)
-
-* On the same worksheet as the raw data, or on a new worksheet all columns were correctly created for:
-
-  * ticker symbol (2.5 points)
-
-  * total stock volume (2.5 points)
-
-  * yearly change ($) (2.5 points)
-
-  * percent change (2.5 points)
-
-#### Conditional Formatting (20 points)
-
-* Conditional formatting is applied correctly and appropriately to the yearly change column (10 points)
-
-* Conditional formatting is applied correctly and appropriately to the percent change column (10 points)
-
-#### Calculated Values (15 points)
-
-* All three of the following values are calculated correctly and displayed in the output:
-
-  * Greatest % Increase (5 points)
-
-  * Greatest % Decrease (5 points)
-
-  * Greatest Total Volume (5 points)
-
-#### Looping Across Worksheet (20 points)
-
-* The VBA script can run on all sheets successfully.
-
-#### GitHub/GitLab Submission (15 points)
-
-* All three of the following are uploaded to GitHub/GitLab:
-
-  * Screenshots of the results (5 points)
-
-  * Separate VBA script files (5 points)
-
-  * README file (5 points)
-
-### Grading
-
-This assignment will be evaluated against the requirements and assigned a grade according to the following table:
-
-| Grade | Points |
-| --- | --- |
-| A (+/-) | 90+ |
-| B (+/-) | 80&ndash;89 |
-| C (+/-) | 70&ndash;79 |
-| D (+/-) | 60&ndash;69 |
-| F (+/-) | < 60 |
-
-### Submission
-
-To submit your Challenge assignment, click Submit, and then provide the URL of your GitHub repository for grading.
-
-> **Note** You are allowed to miss up to two Challenge assignments and still earn your certificate. If you complete all Challenge assignments, your lowest two grades will be dropped. If you wish to skip this assignment, click Next, and proceed to the next module.
-
-Comments are disabled for graded submissions in Bootcamp Spot. If you have questions about your feedback, please notify your instructional staff or your Student Success Manager. If you would like to resubmit your work for an additional review, you can use the Resubmit Assignment button to upload new links. You may resubmit up to three times for a total of four submissions.
-
-> **Important:** **It is your responsibility to include a note in the README section of your repo specifying code source and its location within your repo**. This applies if you have worked with a peer on an assignment, used code in which you did not author or create sourced from a forum such as Stack Overflow, or you received code outside curriculum content from support staff such as an Instructor, TA, Tutor, or Learning Assistant. This will provide visibility to grading staff of your circumstance in order to avoid flagging your work as plagiarized.
->
-> If you are struggling with a Challenge or any aspect of the curriculum, please remember that there are student support services available for you:
->
-> 1. Office hours facilitated by your TA(s)
->
-> 2. Tutor sessions ([sign up](https://tinyurl.com/BootCampTutorTeam))
->
-> 3. Ask the class Slack channel/get peer support
->
-> 4. AskBCS Learning Assistants
-### References
-
-Data for this dataset was generated by edX Boot Camps LLC, and is intended for educational purposes only.
