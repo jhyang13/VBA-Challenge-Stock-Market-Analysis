@@ -1,3 +1,5 @@
+<div id="bootcamp"><img style="display: none;" src="https://static.bc-edx.com/data/dl-1-2/m2/lms/img/banner.jpg" alt="lesson banner" />
+
 # Stock Market Data Analysis with VBA
 
 ## Overview
@@ -7,6 +9,8 @@ This project uses VBA scripting in Microsoft Excel to automate the analysis of h
 The goal of the project is to process large datasets efficiently, generate summary statistics for each stock ticker, and identify key market trends such as the highest percentage increases, decreases, and trading volumes.
 
 By automating repetitive spreadsheet tasks with VBA, this project demonstrates how Excel can be transformed into a lightweight financial analysis and reporting tool.
+
+---
 
 # Project Objectives
 
@@ -20,6 +24,8 @@ The main objectives of this project are to:
 - Apply conditional formatting for easier trend visualization
 - Improve efficiency compared to manual spreadsheet analysis
 
+---
+
 # Dataset
 
 The dataset contains historical stock market information, including:
@@ -32,6 +38,8 @@ The dataset contains historical stock market information, including:
 
 The data is analyzed on a yearly basis using automated VBA scripts.
 
+---
+
 # Features & Analysis
 
 ## Automated VBA Processing
@@ -42,6 +50,8 @@ Developed VBA scripts that:
 - Read and summarize stock data
 - Generate calculated metrics for each ticker
 - Handle large datasets efficiently
+
+---
 
 ## Financial Metrics Calculated
 
@@ -57,6 +67,8 @@ Additional analysis identifies:
 - Greatest percentage decrease
 - Highest total trading volume
 
+---
+
 ## Data Visualization
 
 Implemented conditional formatting to improve readability:
@@ -66,12 +78,16 @@ Implemented conditional formatting to improve readability:
 
 This allows quick visual identification of market trends and stock performance.
 
+---
+
 # Technologies Used
 
 - Microsoft Excel
 - VBA (Visual Basic for Applications)
 - Excel Conditional Formatting
 - Financial Data Analysis Techniques
+
+---
 
 # Key Skills Demonstrated
 
@@ -83,6 +99,27 @@ This project demonstrates experience with:
 - Data aggregation and reporting
 - Spreadsheet optimization
 - Analytical problem solving
+
+---
+
+# Repository Structure
+
+```text
+VBA-challenge/
+│
+├── VBA_Scripts/
+│   VBA modules and automation scripts
+│
+├── Resources/
+│   Raw stock market datasets
+│
+├── Screenshots/
+│   Output screenshots and visualizations
+│
+└── README.md
+```
+
+---
 
 # Future Improvements
 
@@ -101,4 +138,6 @@ Potential future enhancements include:
 This project was completed for educational and portfolio purposes.
 
 Dataset content was generated for learning and analytical practice.
+
+
 
